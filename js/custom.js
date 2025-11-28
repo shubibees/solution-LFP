@@ -123,6 +123,9 @@ $(document).ready(function () {
                 items: 1,
             },
             600: {
+                items: 2,
+            },
+            768: {
                 items: 1,
             },
             1000: {
@@ -156,7 +159,7 @@ $(document).ready(function () {
                 items: 1,
             },
             600: {
-                items: 1,
+                items: 2,
             },
             1000: {
                 items: 2,
@@ -166,5 +169,9 @@ $(document).ready(function () {
             },
         }                  
     });
+    $('.menutoogle').click(function(){        
+      $('.menutoogle').toggleClass('close');
+      $('.nav').toggleClass('active');
+    })
 
 });
