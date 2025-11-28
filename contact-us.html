@@ -10,14 +10,14 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="/lfp-main.css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Canon</title>
   </head>
 
   <body>
     <header class="header">
-      <a class="side-enq-btn" href="/contact-us.html">Enquire Now</a>
+      <a class="side-enq-btn" href="/contact-us.html">Request a demo</a>
       <div class="container flex justify-between">
         <div class="logo">
           <img
@@ -82,55 +82,71 @@
               Fill out the enquiry form.
             </div>
           </div>
-          <div class="form-sec flex flex-col gap-2 mt-4 lg:mt-6">
+          <form
+            action="/demo-request"
+            method="POST"
+            class="form-sec flex flex-col gap-2 mt-4 lg:mt-6"
+          >
             <div class="item flex flex-wrap">
               <label>Select Type of Enquiry *</label>
-              <select name="enquiry">
+              <select name="enquiry_type" required>
                 <option value="">-Select</option>
-                <option value="">Enquiry Type</option>
+                <option value="Ask us a question">Ask us a question</option>
+                <option value="Schedule a Free Demo">
+                  Schedule a Free Demo
+                </option>
               </select>
             </div>
-            <div class="item flex flex-wrap">
-              <label>Select Specific Topic *</label>
-              <select name="enquiry">
-                <option value="">-Select</option>
-                <option value="">Enquiry Type</option>
-              </select>
-            </div>
+
             <div class="item flex flex-wrap">
               <label>Your Name</label>
-              <input type="text" name="name" placeholder="Enter Your Name" />
+              <input type="text" name="name" required />
             </div>
+
             <div class="item flex flex-wrap">
               <label>Email</label>
-              <input type="email" name="email" placeholder="Enter Your Email" />
+              <input type="email" name="email" required />
             </div>
+
+            <div class="item flex flex-wrap">
+              <label>Phone</label>
+              <input type="text" name="phone" maxlength="10" required />
+            </div>
+
             <div class="item flex flex-wrap">
               <label>State/City *</label>
-              <select name="enquiry">
+              <select name="location" required>
                 <option value="">-Select</option>
-                <option value="">Delhi</option>
+                <option value="Delhi">Delhi</option>
               </select>
             </div>
+
             <div class="item flex flex-wrap">
-              <label>Message * </label>
+              <label>Message *</label>
               <textarea name="message" rows="4">
 (Please indicate your product model where applicable)</textarea
               >
             </div>
+
             <div class="item accepetence flex gap-1 items-center">
-              <input type="checkbox" name="accepetence" id="accepetence" />
-              <label for="accepetence"
+              <input type="checkbox" name="accept" id="accept" required />
+              <label for="accept"
                 >By checking this box, I confirm that I have read and agree to
                 the Privacy Policy.</label
               >
             </div>
+
             <div class="w-full flex justify-center mt-4">
-              <button type="submit" class="common-btn red uppercase">
+              <button
+                type="submit"
+                class="common-btn red uppercase"
+                name="submitted"
+                value="submitted"
+              >
                 Submit
               </button>
             </div>
-          </div>
+          </form>
         </div>
         <div
           class="reachus-sec common-spacing-pt flex flex-wrap justify-between items-center"
