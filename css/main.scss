@@ -70,6 +70,7 @@ p {
   color: var(--SecondaryColor);
   font-weight: var(--FontWeightSemiBold);
   font-size: 1rem;
+  line-height: 1;
 
   &.red {
     background-color: var(--PrimaryColor);
@@ -202,6 +203,39 @@ p {
 
   .menu-sec {
     column-gap: 1.875rem;
+
+    .menutoogle {
+      width: 50px;
+      background-color: var(--PrimaryColor);
+      align-items: center;
+      height: 35px;
+      border-radius: 5px;
+      justify-content: center;
+
+      span {
+        width: 25px;
+        height: 2px;
+        background-color: var(--WhiteColor);
+        transition: all linear .3s;
+        position: relative;
+      }
+
+      &.close {
+        span {
+          transform: rotate(-45deg);
+          top: 2px;
+
+          &:nth-of-type(3) {
+            display: none;
+          }
+
+          &:nth-of-type(2) {
+            transform: rotate(45deg);
+            top: -3px;
+          }
+        }
+      }
+    }
   }
 
   .whats-app {
@@ -283,6 +317,7 @@ p {
 
     .text-sec {
       font-size: 3.1rem;
+      max-width: 66rem;
       font-weight: var(--FontWeightSemiBold);
     }
   }
@@ -356,6 +391,10 @@ p {
           left: 0;
           padding: 1.5rem 1.5rem 1rem;
           color: var(--WhiteColor);
+
+          .title {
+            line-height: 1.2;
+          }
         }
       }
     }
@@ -595,6 +634,10 @@ p {
       .item {
         padding: .5rem 1rem 1rem;
         border-bottom: solid 0.0625rem var(--SecondaryColor);
+
+        &:last-of-type {
+          border-bottom: none;
+        }
 
         .title {
           width: 22%;

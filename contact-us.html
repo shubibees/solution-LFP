@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/lfp-main.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Canon</title>
   </head>
@@ -214,8 +215,10 @@
       </div>
     </section>
     <section class="contact-sec common-spacing-py">
-      <div class="container grid grid-cols-3 font-size-16 fontweightregular">
-        <div class="logo-sec">
+      <div
+        class="container grid grid-cols-1 gap-3 sm:grid-cols-2 font-size-16 md:grid-cols-3 fontweightregular"
+      >
+        <div class="logo-sec hidden md:block">
           <img
             src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/6bf5a700-2e48-4a19-b3f2-361d63832488.png"
             width="154"
@@ -257,7 +260,7 @@
       </div>
     </section>
     <footer class="footer">
-      <div class="top-sec grid grid-cols-3">
+      <div class="top-sec grid grid-cols-1 md:grid-cols-3">
         <div class="item text-sec">
           <div class="text fontweightextralight">
             Unlock the power of printing with Canon printers

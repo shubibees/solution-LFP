@@ -179,6 +179,39 @@ p:first-of-type {
   -moz-column-gap: 1.875rem;
   column-gap: 1.875rem;
 }
+.header .menu-sec .menutoogle {
+  width: 50px;
+  background-color: var(--PrimaryColor);
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 35px;
+  border-radius: 5px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.header .menu-sec .menutoogle span {
+  width: 25px;
+  height: 2px;
+  background-color: var(--WhiteColor);
+  -webkit-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+  position: relative;
+}
+.header .menu-sec .menutoogle.close span {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 2px;
+}
+.header .menu-sec .menutoogle.close span:nth-of-type(3) {
+  display: none;
+}
+.header .menu-sec .menutoogle.close span:nth-of-type(2) {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: -3px;
+}
 .header .whats-app {
   -ms-flex-item-align: center;
   align-self: center;
@@ -304,6 +337,9 @@ p:first-of-type {
   left: 0;
   padding: 1.5rem 1.5rem 1rem;
   color: var(--WhiteColor);
+}
+.school-application-sec .outer-sec .right .item .text-detail .title {
+  line-height: 1.2;
 }
 .school-application-sec .outer-sec.detail-page {
   padding-left: 0;

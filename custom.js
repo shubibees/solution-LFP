@@ -1,5 +1,5 @@
 $(document).ready(function () {
-
+    
     var sync1 = $("#sync1");
     var sync2 = $("#sync2");
     var slidesPerPage = 4;
@@ -39,7 +39,7 @@ $(document).ready(function () {
             smartSpeed: 200,
             slideSpeed: 500,
             slideBy: slidesPerPage,
-            responsiveRefreshRate: 100
+            responsiveRefreshRate: 100,            
         })
         .on("changed.owl.carousel", syncPosition2);
 
@@ -166,5 +166,10 @@ $(document).ready(function () {
             },
         }                  
     });
+    $('.menutoogle').click(function(){
+        alert()
+      $('.menutoogle').toggleClass('close');
+      $('.mainnav').toggleClass('active');
+    })
 
 });

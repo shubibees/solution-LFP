@@ -19,6 +19,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.theme.default.min.css"
     />
     <link rel="stylesheet" href="/lfp-main.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/owl.carousel.min.js"></script>
@@ -227,7 +228,9 @@
     <section class="solutions-offer-page features-sec">
       <div class="container">
         <div class="headingtitle">Features</div>
-        <div class="features-items grid grid-cols-3 gap-6 mt-4 lg:mt-6">
+        <div
+          class="features-items grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 mt-4 lg:mt-6"
+        >
           <div class="item flex flex-col justify-between gap-3">
             <div class="desc">
               <div class="title font-size-18 fontweightbold">
@@ -377,7 +380,7 @@
               alt=""
             />
           </div>
-          <div class="steps-sec grid grid-cols-3 gap-6">
+          <div class="steps-sec grid grid-cols-1 md:grid-cols-3 gap-6">
             <div class="item">
               <div class="title font-size-18 fontweightbold">
                 1/3 Free Poster Application
@@ -517,6 +520,7 @@
       <div class="container flex flex-wrap">
         <div class="left">
           <img
+            class="h-full object-cover"
             src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/75aec9b8-9a48-4729-b7cb-e514af085a51.jpg"
             width="635"
             height="384"
@@ -530,7 +534,7 @@
               <span class="block">From Small Spaces</span>
             </div>
           </div>
-          <div class="desc flex flex-col gap-4 mt-4">
+          <div class="desc flex flex-col gap-2 mt-2 sm:gap-4 sm:mt-4">
             <div class="subdesc font-size-24 fontweightmedium">
               Have a question on Canon imagePROGRAF Large Format Printer?
             </div>
@@ -545,8 +549,10 @@
       </div>
     </section>
     <section class="contact-sec common-spacing-py">
-      <div class="container grid grid-cols-3 font-size-16 fontweightregular">
-        <div class="logo-sec">
+      <div
+        class="container grid grid-cols-1 gap-3 sm:grid-cols-2 font-size-16 md:grid-cols-3 fontweightregular"
+      >
+        <div class="logo-sec hidden md:block">
           <img
             src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/6bf5a700-2e48-4a19-b3f2-361d63832488.png"
             width="154"
@@ -588,7 +594,7 @@
       </div>
     </section>
     <footer class="footer">
-      <div class="top-sec grid grid-cols-3">
+      <div class="top-sec grid grid-cols-1 md:grid-cols-3">
         <div class="item text-sec">
           <div class="text fontweightextralight">
             Unlock the power of printing with Canon printers
