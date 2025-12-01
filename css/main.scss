@@ -71,7 +71,9 @@ p {
   font-weight: var(--FontWeightSemiBold);
   font-size: 1rem;
   line-height: 1;
-
+  &.full{
+    width: 100%;
+  }
   &.red {
     background-color: var(--PrimaryColor);
     color: var(--WhiteColor);
@@ -567,38 +569,35 @@ p {
   }
 
   .form-sec {
-    .item {
-      padding: .5rem 1rem 1rem;
-      border-bottom: solid 0.0625rem var(--SecondaryColor);
-
+    .item {          
+      width: 49%;
+      &.w-full{
+        width: 100%;
+      }
       label {
-        width: 24rem;
+        width: 100%;
         font-size: 1.125rem;
         font-weight: var(--FontWeightMedium);
         color: var(--SecondaryColor);
-        opacity: .8;
+        margin-bottom: .2rem;        
       }
 
       input,
       select,
       textarea {
-        width: calc(100% - 24rem);
+        width: 100%;
         font-size: 1.125rem;
+        border: solid 0.0625rem var(--SecondaryColor);
         color: var(--SecondaryColor);
         font-weight: var(--FontWeightMedium);
-        border: none;
+        border-radius: .4rem; 
+        padding: .4rem;       
         outline: none;
-
         &::placeholder {
           font-size: 1.125rem;
           color: var(--SecondaryColor);
           font-weight: var(--FontWeightMedium);
-        }
-
-        &:focus {
-          border: none;
-          outline: none;
-        }
+        }        
       }
 
       &.accepetence {

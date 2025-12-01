@@ -1,0 +1,40 @@
+%%[
+
+IF RequestParameter("accepetence") == "on" THEN
+
+   SET @name     = RequestParameter("name")
+   SET @email    = RequestParameter("email")
+   SET @phone    = RequestParameter("phone")
+
+   /* Capture UTM parameters */
+   SET @utm_source   = RequestParameter("utm_source")
+   SET @utm_medium   = RequestParameter("utm_medium")
+   SET @utm_campaign = RequestParameter("utm_campaign")
+
+   /* Fallback if UTM is empty */
+   IF EMPTY(@utm_source)   THEN SET @utm_source   = "direct" ENDIF
+   IF EMPTY(@utm_medium)   THEN SET @utm_medium   = "none" ENDIF
+   IF EMPTY(@utm_campaign) THEN SET @utm_campaign = "none" ENDIF
+
+   IF NOT EMPTY(@name) AND NOT EMPTY(@email) AND NOT EMPTY(@phone) AND Length(@phone) == 10 THEN
+
+      UpsertDE("Kiran",
+         "Email",         @email,
+         "FullName",      @name,
+         "Phone",         Concat("91", @phone),
+         "SubmittedDate", Now(),
+         "utm_source",    @utm_source,
+         "utm_medium",    @utm_medium,
+         "utm_campaign",  @utm_campaign
+      )
+
+      /* Success message */
+      Output(Concat("<h2 style='color:green;text-align:center;margin:40px 0;'>Thank You! Your enquiry has been submitted.</h2>"))
+
+   ELSE
+      Output(Concat("<p style='color:red;'>Please fill all fields correctly (10-digit mobile).</p>"))
+   ENDIF
+
+ENDIF
+
+]%
