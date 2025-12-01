@@ -1,0 +1,10 @@
+{
+  "homepage": "/school-LFP",
+  "scripts": {
+    "dev": "parcel *.html --no-cache",
+    "build": "parcel build *.html --no-cache"
+  },
+  "dependencies": {
+    "parcel": "^2.16.1"
+  }
+}
