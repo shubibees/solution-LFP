@@ -242,8 +242,7 @@ p {
 
   .whats-app {
     align-self: center;
-  }
-
+  }  
   .nav {
     li {
       background-color: var(--PrimaryColor);
@@ -290,7 +289,10 @@ p {
 
   }
 }
-
+.textlinks{
+    color: var(--PrimaryColor);
+    font-weight: var(--FontWeightBold);
+  }
 .banner-sec {
   img {
     height: calc(100vh - 7.2rem);
@@ -334,7 +336,7 @@ p {
 
   &.innerbanner {
     img {
-      max-height: 32rem;
+      max-height: 40rem;
     }
 
     .text-sec {
@@ -402,7 +404,9 @@ p {
       .item {
         position: relative;
         background-color: var(--SecondaryColor);
-
+        // .desc{
+        //   display: none;
+        // }
         img {
           opacity: .5;
         }
@@ -512,7 +516,7 @@ p {
       left: 0;
       padding: 1.5rem 1.5rem 1rem;
       color: var(--WhiteColor);
-
+      width: 100%;
       .title {
         font-size: 1rem;
         font-weight: var(--FontWeightBold);

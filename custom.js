@@ -1,6 +1,6 @@
 $(document).ready(function () {
-  var sync1 = $("#sync1");
-  var sync2 = $("#sync2");
+  var sync1 = $("#sync1, #sync3");
+  var sync2 = $("#sync2, #sync4");
   var slidesPerPage = 4;
   var syncedSecondary = true;
 
@@ -159,7 +159,7 @@ $(document).ready(function () {
     $(".bannerslider")    
     .owlCarousel({
       items: 1,
-      loop: true,      
+      loop: false,      
       autoplay: true,
       nav: false,      
       dots:true  
@@ -173,6 +173,13 @@ $(document).ready(function () {
     $(".steps-sec .item").removeClass("active");
     $(this).addClass("active");
     $(".process-image").addClass("hidden");
+    $("#" + id).removeClass("hidden");
+  });
+  $(".solutions-offer-page .tabbing-sec .common-btn").click(function () {
+    let id = $(this).data("id");
+    $(".solutions-offer-page .tabbing-sec .common-btn").removeClass("red");
+    $(this).addClass("red");
+    $(".pagedatas").addClass("hidden");
     $("#" + id).removeClass("hidden");
   });
 });
