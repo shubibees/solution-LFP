@@ -1,825 +1,976 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/fab" href="/images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.theme.default.min.css"
+    />
+    <link rel="stylesheet" href="/lfp-main.css" />
+    <link rel="stylesheet" href="/responsive.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/owl.carousel.min.js"></script>
+    <script src="/custom.js"></script>
+    <title>Canon</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" type="image/fab" href="/images/favicon.ico" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.carousel.min.css" />
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.theme.default.min.css" />
-  <link rel="stylesheet" href="/lfp-main.css" />
-  <link rel="stylesheet" href="/responsive.css" />
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/owl.carousel.min.js"></script>
-  <script src="/custom.js"></script>
-  <title>Canon</title>
-</head>
-
-<body>
-  <header class="header">
-    <a class="side-enq-btn" href="/school-LFP/contact-us">Request a demo</a>
-    <div class="container flex justify-between">
-      <div class="logo">
-        <a href="/school-LFP">
+  <body>
+    <header class="header">
+      <a class="side-enq-btn" href="/school-LFP/contact-us">Request a demo</a>
+      <div class="container flex justify-between">
+        <div class="logo">
+          <a href="/school-LFP">
+            <img
+              src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/6bf5a700-2e48-4a19-b3f2-361d63832488.png"
+              width="154"
+              height="74"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="menu-sec flex justify-end">
+          <!-- <div class="whats-app font-size-18"> -->
+          <!--   <b>WhatsApp:</b> +91 91085 10853 -->
+          <!-- </div> -->
+          <button class="flex flex-col gap-1 menutoogle lg:hidden">
+            <span>&nbsp;</span>
+            <span>&nbsp;</span>
+            <span>&nbsp;</span>
+          </button>
+          <ul class="nav flex">
+            <li>
+              <a href="/school-LFP/about-us">About Us</a>
+            </li>
+            <li>
+              <a href="/school-LFP/solutions-we-offer">Solutions We Offer</a>
+            </li>
+            <li>
+              <a href="/school-LFP/school-applications">School Applications</a>
+            </li>
+            <li>
+              <a href="/school-LFP/blog">Blog</a>
+            </li>
+            <li>
+              <a href="/school-LFP/contact-us">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="banner-sec innerbanner relative">
+      <img
+        class="w-full"
+        src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/47bda468-eecd-4b75-819d-316d1ebeba3a.jpg"
+        width="1400"
+        height="540"
+        alt=""
+      />
+      <div class="text-sec">Solutions We Offer</div>
+    </section>
+    <!-- <section class="marquee-sec"> -->
+    <!--   <marquee width="100%" height="100%" direction="left"> -->
+    <!--     <span>Reliable by Design</span> -->
+    <!--     <span>Effective Security, Made Easy</span> -->
+    <!--     <span>Sustainable Printing</span> -->
+    <!--     <span>Advanced security features</span> -->
+    <!--     <span>Minimising downtime and ensuring consistent performance.</span> -->
+    <!--     <span>Advanced security features</span> -->
+    <!--     <span>Sustainable Printing</span> -->
+    <!--   </marquee> -->
+    <!-- </section> -->
+    <section class="solutions-offer-page solutions-sec common-spacing-pt">
+      <div class="container">
+        <div class="heading-sec">
+          <div class="subtitle red-text">Solutions We Offer</div>
+          <div class="title">
+            Discover the best<span>
+              Canon printers for all your education needs</span
+            >
+          </div>
+        </div>
+        <div class="desc font-size-18 mt-3">
+          Canon state-of-the-art Large Format Printers, Copying and Scanning
+          Systems are designed to deliver Unparalleled ease of use, Exceptional
+          Speed, Reliability and Print Quality combined with flexibility to use
+          for Schools.
+        </div>
+        <div class="products-tabbing-sec mt-4">
+          <div class="font-size-18 fontweightbold red-text">Product Models</div>
+          <div class="tabbing-sec flex gap-3 mt-2">
+            <button type="button" class="common-btn red" data-id="data-01">
+              imagePROGRAF TC-21
+            </button>
+            <button type="button" class="common-btn" data-id="data-02">
+              imagePROGRAF TC-21M
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pagedatas" id="data-01">
+      <section class="solutions-offer-page solutions-sec common-spacing-pb">
+        <div class="container">
+          <div class="products-tabbing-sec">
+            <div
+              class="product-detail flex flex-wrap justify-between items-center"
+            >
+              <div class="left">
+                <div class="product-name">
+                  <div class="title">imagePROGRAF TC-21</div>
+                  <div class="subtitle font-size-18 fontweightbold">
+                    Compact Efficiency with Excellent Print Quality
+                  </div>
+                </div>
+                <div
+                  class="description flex flex-col gap-4 mt-4 lg:gap-6 lg:mt-6"
+                >
+                  <div class="overview">
+                    <p>
+                      Stop Outsourcing and Start Saving. Canon TC-21 desktop
+                      large format printer has been built with technologies that
+                      moves education and creative work forward. Design and
+                      print Classroom Decor & Visual Learning Aids, educational
+                      poster, Event Posters, Banner, and many more.
+                    </p>
+                  </div>
+                  <div class="pointers">
+                    <ul>
+                      <li>B/W and Color printing</li>
+                      <li>
+                        Small size (4 x 6 inch) to large Size (24 x 96 inch)
+                        printing.
+                      </li>
+                      <li>Space-saving desktop model</li>
+                      <li>Support WiFi, LAN and USB Connectivity.</li>
+                      <li>Self refillable ink bottles.</li>
+                    </ul>
+                  </div>
+                  <div class="links flex">
+                    <a class="common-btn red" href="/school-LFP/contact-us"
+                      >Book a demo</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="right">
+                <div id="sync1" class="owl-carousel owl-theme">
+                  <div class="item">
+                    <img
+                      src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/77ba7ec5-282e-42b6-934c-779a2a9040e2.jpg"
+                      width="650"
+                      height="534"
+                      alt=""
+                    />
+                  </div>
+                  <div class="item">
+                    <img
+                      src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/77ba7ec5-282e-42b6-934c-779a2a9040e2.jpg"
+                      width="650"
+                      height="534"
+                      alt=""
+                    />
+                  </div>
+                  <div class="item">
+                    <img
+                      src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/77ba7ec5-282e-42b6-934c-779a2a9040e2.jpg"
+                      width="650"
+                      height="534"
+                      alt=""
+                    />
+                  </div>
+                  <div class="item">
+                    <img
+                      src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/77ba7ec5-282e-42b6-934c-779a2a9040e2.jpg"
+                      width="650"
+                      height="534"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div id="sync2" class="owl-carousel owl-theme mt-4">
+                  <div class="item">
+                    <img
+                      src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/d9681a0e-fb3a-4c97-8c5d-f16dbc6779f1.jpg"
+                      width="155"
+                      height="160"
+                      alt=""
+                    />
+                  </div>
+                  <div class="item">
+                    <img
+                      src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/d9681a0e-fb3a-4c97-8c5d-f16dbc6779f1.jpg"
+                      width="155"
+                      height="160"
+                      alt=""
+                    />
+                  </div>
+                  <div class="item">
+                    <img
+                      src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/d9681a0e-fb3a-4c97-8c5d-f16dbc6779f1.jpg"
+                      width="155"
+                      height="160"
+                      alt=""
+                    />
+                  </div>
+                  <div class="item">
+                    <img
+                      src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/d9681a0e-fb3a-4c97-8c5d-f16dbc6779f1.jpg"
+                      width="155"
+                      height="160"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="solutions-offer-page features-sec">
+        <div class="container">
+          <div class="headingtitle">Features</div>
+          <div
+            class="features-items grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 mt-4 lg:mt-6"
+          >
+            <div class="item flex flex-col justify-between gap-3">
+              <div class="desc">
+                <div class="title font-size-18 fontweightbold">
+                  Space Saving Desktop Model
+                </div>
+                <div class="overview font-size-14">
+                  Designed to be installed in a small & tight space to print
+                  various document sizes ranging from A6 to A1/24 inches sizes.
+                  It can be placed on a desk, cabinet or shelf with a flat top
+                  that will fit in a home office or satellite office.
+                </div>
+              </div>
+              <div class="image">
+                <img
+                  src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/9dec046b-b28f-4d8a-b3c0-a05f1f4b6e17.jpg"
+                  width="408"
+                  height="267"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="item flex flex-col justify-between gap-3">
+              <div class="desc">
+                <div class="title font-size-18 fontweightbold">
+                  High Quality Prints
+                </div>
+                <div class="overview font-size-14"></div>
+              </div>
+              <div class="image">
+                <img
+                  src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/9dec046b-b28f-4d8a-b3c0-a05f1f4b6e17.jpg"
+                  width="408"
+                  height="267"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="item flex flex-col justify-between gap-3">
+              <div class="desc">
+                <div class="title font-size-18 fontweightbold">
+                  Space Saving Desktop Model
+                </div>
+                <div class="overview font-size-14">
+                  Designed to be installed in a small & tight space to print
+                  various document sizes ranging from A6 to A1/24 inches sizes.
+                  It can be placed on a desk, cabinet or shelf with a flat top
+                  that will fit in a home office or satellite office.
+                </div>
+              </div>
+              <div class="image">
+                <img
+                  src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/9dec046b-b28f-4d8a-b3c0-a05f1f4b6e17.jpg"
+                  width="408"
+                  height="267"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="item flex flex-col justify-between gap-3">
+              <div class="desc">
+                <div class="title font-size-18 fontweightbold">
+                  Space Saving Desktop Model
+                </div>
+                <div class="overview font-size-14">
+                  Designed to be installed in a small & tight space to print
+                  various document sizes ranging from A6 to A1/24 inches sizes.
+                  It can be placed on a desk, cabinet or shelf with a flat top
+                  that will fit in a home office or satellite office.
+                </div>
+              </div>
+              <div class="image">
+                <img
+                  src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/9dec046b-b28f-4d8a-b3c0-a05f1f4b6e17.jpg"
+                  width="408"
+                  height="267"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="item flex flex-col justify-between gap-3">
+              <div class="desc">
+                <div class="title font-size-18 fontweightbold">
+                  Space Saving Desktop Model
+                </div>
+                <div class="overview font-size-14">
+                  Designed to be installed in a small & tight space to print
+                  various document sizes ranging from A6 to A1/24 inches sizes.
+                  It can be placed on a desk, cabinet or shelf with a flat top
+                  that will fit in a home office or satellite office.
+                </div>
+              </div>
+              <div class="image">
+                <img
+                  src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/9dec046b-b28f-4d8a-b3c0-a05f1f4b6e17.jpg"
+                  width="408"
+                  height="267"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="item flex flex-col justify-between gap-3">
+              <div class="desc">
+                <div class="title font-size-18 fontweightbold">
+                  Space Saving Desktop Model
+                </div>
+                <div class="overview font-size-14">
+                  Designed to be installed in a small & tight space to print
+                  various document sizes ranging from A6 to A1/24 inches sizes.
+                  It can be placed on a desk, cabinet or shelf with a flat top
+                  that will fit in a home office or satellite office.
+                </div>
+              </div>
+              <div class="image">
+                <img
+                  src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/9dec046b-b28f-4d8a-b3c0-a05f1f4b6e17.jpg"
+                  width="408"
+                  height="267"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="solutions-offer-page workflow-sec common-spacing-py">
+        <div class="container">
+          <div class="heading-sec">
+            <div class="title"><span>Free Workflow</span> Solutions</div>
+            <div class="desc mt-2">
+              <p>
+                The following workflow solutions are designed to help you get
+                the most out of your printer.
+              </p>
+            </div>
+          </div>
+          <div class="workflow-items mt-4 lg:mt-6">
+            <div class="image-sec">
+              <div class="process-image" id="process-1">
+                <img
+                  src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/583c2bc1-aac1-4fd3-a373-3516666bcefb.jpg"
+                  width="1270"
+                  height="429"
+                  alt=""
+                />
+              </div>
+              <div class="process-image hidden" id="process-2">
+                <img
+                  src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/583c2bc1-aac1-4fd3-a373-3516666bcefb.jpg"
+                  width="1270"
+                  height="429"
+                  alt=""
+                />
+              </div>
+              <div class="process-image hidden" id="process-3">
+                <img
+                  src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/583c2bc1-aac1-4fd3-a373-3516666bcefb.jpg"
+                  width="1270"
+                  height="429"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="steps-sec grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div class="item active" data-id="process-1">
+                <div class="title fontweightbold">Free Poster Application</div>
+                <div class="desc font-size-14">
+                  PosterArtist Web application provides a wide selection of
+                  design templates for users to create their own posters, Banner
+                  and other graphics easily and send to print.
+                </div>
+              </div>
+              <div class="item" data-id="process-2">
+                <div class="title fontweightbold">Direct Print Plus</div>
+                <div class="desc font-size-14">
+                  Job submission tool which supports batch printing of multiple
+                  file types, shortcut printing function and job presets,
+                  enabling efficient large format printing workflow. 
+                </div>
+              </div>
+              <div class="item" data-id="process-3">
+                <div class="title fontweightbold">Canon PRINT</div>
+                <div class="desc font-size-14">
+                  Print PDF files wirelessly via mobile app for Android
+                  smartphones & tablets. Ability to check the status of printer.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="pagedatas hidden" id="data-02">
+      <section class="solutions-offer-page solutions-sec common-spacing-pb">
+        <div class="container">
+          <div class="products-tabbing-sec">
+            <div
+              class="product-detail flex flex-wrap justify-between items-center"
+            >
+              <div class="left">
+                <div class="product-name">
+                  <div class="title">imagePROGRAF TC-21M</div>
+                  <div class="subtitle font-size-18 fontweightbold">
+                    Compact Efficiency with Excellent Print Quality
+                  </div>
+                </div>
+                <div
+                  class="description flex flex-col gap-4 mt-4 lg:gap-6 lg:mt-6"
+                >
+                  <div class="overview">
+                    <p>
+                      Stop Outsourcing and Start Saving. Canon TC-21 desktop
+                      large format printer has been built with technologies that
+                      moves education and creative work forward. Design and
+                      print Classroom Decor & Visual Learning Aids, educational
+                      poster, Event Posters, Banner, and many more.
+                    </p>
+                  </div>
+                  <div class="pointers">
+                    <ul>
+                      <li>B/W and Color printing</li>
+                      <li>
+                        Small size (4 x 6 inch) to large Size (24 x 96 inch)
+                        printing.
+                      </li>
+                      <li>Space-saving desktop model</li>
+                      <li>Support WiFi, LAN and USB Connectivity.</li>
+                      <li>Self refillable ink bottles.</li>
+                    </ul>
+                  </div>
+                  <div class="links flex">
+                    <a class="common-btn red" href="/school-LFP/contact-us"
+                      >Enquire</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="right">
+                <div id="sync3" class="owl-carousel owl-theme">
+                  <div class="item">
+                    <img
+                      src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/77ba7ec5-282e-42b6-934c-779a2a9040e2.jpg"
+                      width="650"
+                      height="534"
+                      alt=""
+                    />
+                  </div>
+                  <div class="item">
+                    <img
+                      src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/77ba7ec5-282e-42b6-934c-779a2a9040e2.jpg"
+                      width="650"
+                      height="534"
+                      alt=""
+                    />
+                  </div>
+                  <div class="item">
+                    <img
+                      src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/77ba7ec5-282e-42b6-934c-779a2a9040e2.jpg"
+                      width="650"
+                      height="534"
+                      alt=""
+                    />
+                  </div>
+                  <div class="item">
+                    <img
+                      src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/77ba7ec5-282e-42b6-934c-779a2a9040e2.jpg"
+                      width="650"
+                      height="534"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div id="sync4" class="owl-carousel owl-theme mt-4">
+                  <div class="item">
+                    <img
+                      src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/d9681a0e-fb3a-4c97-8c5d-f16dbc6779f1.jpg"
+                      width="155"
+                      height="160"
+                      alt=""
+                    />
+                  </div>
+                  <div class="item">
+                    <img
+                      src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/d9681a0e-fb3a-4c97-8c5d-f16dbc6779f1.jpg"
+                      width="155"
+                      height="160"
+                      alt=""
+                    />
+                  </div>
+                  <div class="item">
+                    <img
+                      src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/d9681a0e-fb3a-4c97-8c5d-f16dbc6779f1.jpg"
+                      width="155"
+                      height="160"
+                      alt=""
+                    />
+                  </div>
+                  <div class="item">
+                    <img
+                      src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/d9681a0e-fb3a-4c97-8c5d-f16dbc6779f1.jpg"
+                      width="155"
+                      height="160"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="solutions-offer-page features-sec">
+        <div class="container">
+          <div class="headingtitle">Features</div>
+          <div
+            class="features-items grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 mt-4 lg:mt-6"
+          >
+            <div class="item flex flex-col justify-between gap-3">
+              <div class="desc">
+                <div class="title font-size-18 fontweightbold">
+                  Space Saving Desktop Model
+                </div>
+                <div class="overview font-size-14">
+                  Designed to be installed in a small & tight space to print
+                  various document sizes ranging from A6 to A1/24 inches sizes.
+                  It can be placed on a desk, cabinet or shelf with a flat top
+                  that will fit in a home office or satellite office.
+                </div>
+              </div>
+              <div class="image">
+                <img
+                  src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/9dec046b-b28f-4d8a-b3c0-a05f1f4b6e17.jpg"
+                  width="408"
+                  height="267"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="item flex flex-col justify-between gap-3">
+              <div class="desc">
+                <div class="title font-size-18 fontweightbold">
+                  Space Saving Desktop Model
+                </div>
+                <div class="overview font-size-14">
+                  Designed to be installed in a small & tight space to print
+                  various document sizes ranging from A6 to A1/24 inches sizes.
+                  It can be placed on a desk, cabinet or shelf with a flat top
+                  that will fit in a home office or satellite office.
+                </div>
+              </div>
+              <div class="image">
+                <img
+                  src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/9dec046b-b28f-4d8a-b3c0-a05f1f4b6e17.jpg"
+                  width="408"
+                  height="267"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="item flex flex-col justify-between gap-3">
+              <div class="desc">
+                <div class="title font-size-18 fontweightbold">
+                  Space Saving Desktop Model
+                </div>
+                <div class="overview font-size-14">
+                  Designed to be installed in a small & tight space to print
+                  various document sizes ranging from A6 to A1/24 inches sizes.
+                  It can be placed on a desk, cabinet or shelf with a flat top
+                  that will fit in a home office or satellite office.
+                </div>
+              </div>
+              <div class="image">
+                <img
+                  src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/9dec046b-b28f-4d8a-b3c0-a05f1f4b6e17.jpg"
+                  width="408"
+                  height="267"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="item flex flex-col justify-between gap-3">
+              <div class="desc">
+                <div class="title font-size-18 fontweightbold">
+                  Space Saving Desktop Model
+                </div>
+                <div class="overview font-size-14">
+                  Designed to be installed in a small & tight space to print
+                  various document sizes ranging from A6 to A1/24 inches sizes.
+                  It can be placed on a desk, cabinet or shelf with a flat top
+                  that will fit in a home office or satellite office.
+                </div>
+              </div>
+              <div class="image">
+                <img
+                  src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/9dec046b-b28f-4d8a-b3c0-a05f1f4b6e17.jpg"
+                  width="408"
+                  height="267"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="item flex flex-col justify-between gap-3">
+              <div class="desc">
+                <div class="title font-size-18 fontweightbold">
+                  Space Saving Desktop Model
+                </div>
+                <div class="overview font-size-14">
+                  Designed to be installed in a small & tight space to print
+                  various document sizes ranging from A6 to A1/24 inches sizes.
+                  It can be placed on a desk, cabinet or shelf with a flat top
+                  that will fit in a home office or satellite office.
+                </div>
+              </div>
+              <div class="image">
+                <img
+                  src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/9dec046b-b28f-4d8a-b3c0-a05f1f4b6e17.jpg"
+                  width="408"
+                  height="267"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="item flex flex-col justify-between gap-3">
+              <div class="desc">
+                <div class="title font-size-18 fontweightbold">
+                  Space Saving Desktop Model
+                </div>
+                <div class="overview font-size-14">
+                  Designed to be installed in a small & tight space to print
+                  various document sizes ranging from A6 to A1/24 inches sizes.
+                  It can be placed on a desk, cabinet or shelf with a flat top
+                  that will fit in a home office or satellite office.
+                </div>
+              </div>
+              <div class="image">
+                <img
+                  src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/9dec046b-b28f-4d8a-b3c0-a05f1f4b6e17.jpg"
+                  width="408"
+                  height="267"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="solutions-offer-page workflow-sec common-spacing-py">
+        <div class="container">
+          <div class="heading-sec">
+            <div class="title"><span>Free Workflow</span> Solutions</div>
+            <div class="desc mt-2">
+              <p>
+                The following workflow solutions are designed to help you get
+                the most out of your printer.
+              </p>
+            </div>
+          </div>
+          <div class="workflow-items mt-4 lg:mt-6">
+            <div class="image-sec">
+              <div class="process-image" id="process-1">
+                <img
+                  src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/59efbba5-a37f-4a6a-80f0-281415a79265.jpg"
+                  width="1270"
+                  height="429"
+                  alt=""
+                />
+              </div>
+              <div class="process-image hidden" id="process-2">
+                <img
+                  src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/59efbba5-a37f-4a6a-80f0-281415a79265.jpg"
+                  width="1270"
+                  height="429"
+                  alt=""
+                />
+              </div>
+              <div class="process-image hidden" id="process-3">
+                <img
+                  src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/59efbba5-a37f-4a6a-80f0-281415a79265.jpg"
+                  width="1270"
+                  height="429"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="steps-sec grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div class="item active" data-id="process-1">
+                <div class="title fontweightbold">Free Poster Application</div>
+                <div class="desc font-size-14">
+                  PosterArtist Web application provides a wide selection of
+                  design templates for users to create their own posters, Banner
+                  and other graphics easily and send to print.
+                </div>
+              </div>
+              <div class="item" data-id="process-2">
+                <div class="title fontweightbold">Direct Print Plus</div>
+                <div class="desc font-size-14">
+                  Job submission tool which supports batch printing of multiple
+                  file types, shortcut printing function and job presets,
+                  enabling efficient large format printing workflow. 
+                </div>
+              </div>
+              <div class="item" data-id="process-3">
+                <div class="title fontweightbold">Canon PRINT</div>
+                <div class="desc font-size-14">
+                  Print PDF files wirelessly via mobile app for Android
+                  smartphones & tablets. Ability to check the status of printer.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="solutions-offer-page configuration-sec common-spacing-py">
+      <div
+        class="container grid grid-cols-1 gap-4 sm:grid-cols-2 mdgrid-cols-3 lg:grid-cols-5 lg:gap-6"
+      >
+        <div class="item flex flex-col gap-2">
+          <div class="icon">
+            <img
+              src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/ba49c51e-e6f0-4f34-9900-cbcbe7c560d1.jpg"
+              width="46"
+              height="46"
+              alt=""
+            />
+          </div>
+          <div class="text-sec">
+            <div class="title fontweightbold">MS Office Plug-in​</div>
+            <div class="desc font-size-14">
+              Create prints directly from MS Office Tools like Word, Excel &
+              PowerPoint​
+            </div>
+          </div>
+        </div>
+        <div class="item flex flex-col gap-2">
+          <div class="icon">
+            <img
+              src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/ba49c51e-e6f0-4f34-9900-cbcbe7c560d1.jpg"
+              width="46"
+              height="46"
+              alt=""
+            />
+          </div>
+          <div class="text-sec">
+            <div class="title fontweightbold">Free Layout Plus -</div>
+            <div class="desc font-size-14">
+              Enjoy nesting, tiling and duplex printing features.
+            </div>
+          </div>
+        </div>
+        <div class="item flex flex-col gap-2">
+          <div class="icon">
+            <img
+              src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/ba49c51e-e6f0-4f34-9900-cbcbe7c560d1.jpg"
+              width="46"
+              height="46"
+              alt=""
+            />
+          </div>
+          <div class="text-sec">
+            <div class="title fontweightbold">Quick Utility Toolbox -</div>
+            <div class="desc font-size-14">
+              Quick access to supporting utilities and settings. From printer
+              information, speed dial and destination folder settings to
+              scanning and cloud sharing.
+            </div>
+          </div>
+        </div>
+        <div class="item flex flex-col gap-2">
+          <div class="icon">
+            <img
+              src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/ba49c51e-e6f0-4f34-9900-cbcbe7c560d1.jpg"
+              width="46"
+              height="46"
+              alt=""
+            />
+          </div>
+          <div class="text-sec">
+            <div class="title fontweightbold">Easy PhotoPrint Editor​</div>
+            <div class="desc font-size-14">
+              Create & Print Photo Layout, Collage & calendars from Computer &
+              Mobile​
+            </div>
+          </div>
+        </div>
+        <div class="item flex flex-col gap-2">
+          <div class="icon">
+            <img
+              src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/ba49c51e-e6f0-4f34-9900-cbcbe7c560d1.jpg"
+              width="46"
+              height="46"
+              alt=""
+            />
+          </div>
+          <div class="text-sec">
+            <div class="title fontweightbold">
+              Poster Artist/PosterArtist Lite -
+            </div>
+            <div class="desc font-size-14">
+              Windows-based application. Create professional-looking posters
+              in-house with a wide variety of templates, stock photos and clip
+              art for various business types and themes.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="solutions-offer-page potential-sec common-spacing-py">
+      <div class="container flex flex-wrap">
+        <div class="left">
+          <img
+            class="h-full object-cover"
+            src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/75aec9b8-9a48-4729-b7cb-e514af085a51.jpg"
+            width="635"
+            height="384"
+            alt=""
+          />
+        </div>
+        <div class="right flex flex-col justify-center">
+          <div class="heading-sec">
+            <div class="title">
+              Unlock Large Potential
+              <span class="block">From Small Spaces</span>
+            </div>
+          </div>
+          <div class="desc flex flex-col gap-2 mt-2 sm:gap-4 sm:mt-4">
+            <div class="subdesc font-size-24 fontweightmedium">
+              Have a question on Canon imagePROGRAF Large Format Printer?
+            </div>
+            <div class="font-size-18">
+              Want to know how it can help in your business?
+            </div>
+            <div class="links flex">
+              <a class="common-btn" href="/school-LFP/contact-us"
+                >Ask Us a Question</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-sec common-spacing-py">
+      <div
+        class="container grid grid-cols-1 gap-3 sm:grid-cols-2 font-size-16 md:grid-cols-3 fontweightregular"
+      >
+        <div class="logo-sec hidden md:block">
           <img
             src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/6bf5a700-2e48-4a19-b3f2-361d63832488.png"
-            width="154" height="74" alt="" />
-        </a>
-      </div>
-      <div class="menu-sec flex justify-end">
-        <!-- <div class="whats-app font-size-18"> -->
-        <!--   <b>WhatsApp:</b> +91 91085 10853 -->
-        <!-- </div> -->
-        <button class="flex flex-col gap-1 menutoogle lg:hidden">
-          <span>&nbsp;</span>
-          <span>&nbsp;</span>
-          <span>&nbsp;</span>
-        </button>
-        <ul class="nav flex">
-          <li>
-            <a href="/school-LFP/about-us">About Us</a>
-          </li>
-          <li>
-            <a href="/school-LFP/solutions-we-offer">Solutions We Offer</a>
-          </li>
-          <li>
-            <a href="/school-LFP/school-applications">School Applications</a>
-          </li>
-          <li>
-            <a href="/school-LFP/blog">Blog</a>
-          </li>
-          <li>
-            <a href="/school-LFP/contact-us">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </header>
-  <section class="banner-sec innerbanner relative">
-    <img class="w-full"
-      src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/47bda468-eecd-4b75-819d-316d1ebeba3a.jpg"
-      width="1400" height="540" alt="" />
-    <div class="text-sec">Solutions We Offer</div>
-  </section>
-  <!-- <section class="marquee-sec"> -->
-  <!--   <marquee width="100%" height="100%" direction="left"> -->
-  <!--     <span>Reliable by Design</span> -->
-  <!--     <span>Effective Security, Made Easy</span> -->
-  <!--     <span>Sustainable Printing</span> -->
-  <!--     <span>Advanced security features</span> -->
-  <!--     <span>Minimising downtime and ensuring consistent performance.</span> -->
-  <!--     <span>Advanced security features</span> -->
-  <!--     <span>Sustainable Printing</span> -->
-  <!--   </marquee> -->
-  <!-- </section> -->
-  <section class="solutions-offer-page solutions-sec common-spacing-pt">
-    <div class="container">
-      <div class="heading-sec">
-        <div class="subtitle red-text">Solutions We Offer</div>
-        <div class="title">
-          Discover the best<span>
-            Canon printers for all your education needs</span>
+            width="154"
+            height="74"
+            alt=""
+          />
         </div>
-      </div>
-      <div class="desc font-size-18 mt-3">
-        Canon state-of-the-art Large Format Printers, Copying and Scanning
-        Systems are designed to deliver Unparalleled ease of use, Exceptional
-        Speed, Reliability and Print Quality combined with flexibility to use
-        for Schools.
-      </div>
-      <div class="products-tabbing-sec mt-4">
-        <div class="font-size-18 fontweightbold red-text">Product Models</div>
-        <div class="tabbing-sec flex gap-3 mt-2">
-          <button type="button" class="common-btn red" data-id="data-01">imagePROGRAF TC-21</button>
-          <button type="button" class="common-btn" data-id="data-02">imagePROGRAF TC-21M</button>
+        <div class="email-phone-sec flex flex-col gap-4 lg:gap-8">
+          <div class="item">
+            <div class="title fontweightbold">Email:</div>
+            <div class="desc">
+              <a href="mailto:cipl.ppp@canon.co.in">cipl.ppp@canon.co.in</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="title fontweightbold">WhatsApp:</div>
+            <div class="desc">+91 9899298939</div>
+          </div>
+          <div class="item">
+            <div class="title fontweightbold">Phone:</div>
+            <div class="desc">+91 9899298939</div>
+          </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <section class="pagedatas" id="data-01">
-    <section class="solutions-offer-page solutions-sec common-spacing-pb">
-      <div class="container">
-        <div class="products-tabbing-sec">        
-          <div class="product-detail flex flex-wrap justify-between items-center">
-            <div class="left">
-              <div class="product-name">
-                <div class="title">imagePROGRAF TC-21</div>
-                <div class="subtitle font-size-18 fontweightbold">
-                  Compact Efficiency with Excellent Print Quality
-                </div>
-              </div>
-              <div class="description flex flex-col gap-4 mt-4 lg:gap-6 lg:mt-6">
-                <div class="overview">
-                  <p>
-                    Stop Outsourcing and Start Saving. Canon TC-21 desktop large
-                    format printer has been built with technologies that moves
-                    education and creative work forward. Design and print
-                    Classroom Decor & Visual Learning Aids, educational poster,
-                    Event Posters, Banner, and many more.
-                  </p>
-                </div>
-                <div class="pointers">
-                  <ul>
-                    <li>B/W and Color printing</li>
-                    <li>
-                      Small size (4 x 6 inch) to large Size (24 x 96 inch)
-                      printing.
-                    </li>
-                    <li>Space-saving desktop model</li>
-                    <li>Support WiFi, LAN and USB Connectivity.</li>
-                    <li>Self refillable ink bottles.</li>
-                  </ul>
-                </div>
-                <div class="links flex">
-                  <a class="common-btn red" href="/school-LFP/contact-us">Enquire</a>
-                </div>
-              </div>
+        <div class="address-sec flex flex-col gap-4 lg:gap-8">
+          <div class="item">
+            <div class="title fontweightbold">Address:</div>
+            <div class="desc">
+              7th Floor, Tower B,<br />
+              Building #5, DLF Epitome,<br />
+              DLF Phase III,<br />
+              Gurgaon 122002
             </div>
-            <div class="right">
-              <div id="sync1" class="owl-carousel owl-theme">
-                <div class="item">
-                  <img
-                    src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/77ba7ec5-282e-42b6-934c-779a2a9040e2.jpg"
-                    width="650" height="534" alt="" />
-                </div>
-                <div class="item">
-                  <img
-                    src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/77ba7ec5-282e-42b6-934c-779a2a9040e2.jpg"
-                    width="650" height="534" alt="" />
-                </div>
-                <div class="item">
-                  <img
-                    src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/77ba7ec5-282e-42b6-934c-779a2a9040e2.jpg"
-                    width="650" height="534" alt="" />
-                </div>
-                <div class="item">
-                  <img
-                    src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/77ba7ec5-282e-42b6-934c-779a2a9040e2.jpg"
-                    width="650" height="534" alt="" />
-                </div>
-              </div>
-              <div id="sync2" class="owl-carousel owl-theme mt-4">
-                <div class="item">
-                  <img
-                    src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/d9681a0e-fb3a-4c97-8c5d-f16dbc6779f1.jpg"
-                    width="155" height="160" alt="" />
-                </div>
-                <div class="item">
-                  <img
-                    src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/d9681a0e-fb3a-4c97-8c5d-f16dbc6779f1.jpg"
-                    width="155" height="160" alt="" />
-                </div>
-                <div class="item">
-                  <img
-                    src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/d9681a0e-fb3a-4c97-8c5d-f16dbc6779f1.jpg"
-                    width="155" height="160" alt="" />
-                </div>
-                <div class="item">
-                  <img
-                    src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/d9681a0e-fb3a-4c97-8c5d-f16dbc6779f1.jpg"
-                    width="155" height="160" alt="" />
-                </div>
-              </div>
-            </div>
+          </div>
+          <div class="item">
+            <div class="title fontweightbold">Canon India Pvt. Ltd.</div>
+            <div class="desc">2025 All Rights Reserved</div>
           </div>
         </div>
       </div>
     </section>
-    <section class="solutions-offer-page features-sec">
-      <div class="container">
-        <div class="headingtitle">Features</div>
-        <div class="features-items grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 mt-4 lg:mt-6">
-          <div class="item flex flex-col justify-between gap-3">
-            <div class="desc">
-              <div class="title font-size-18 fontweightbold">
-                Space Saving Desktop Model
-              </div>
-              <div class="overview font-size-14">
-                Designed to be installed in a small & tight space to print
-                various document sizes ranging from A6 to A1/24 inches sizes. It
-                can be placed on a desk, cabinet or shelf with a flat top that
-                will fit in a home office or satellite office.
-              </div>
-            </div>
-            <div class="image">
-              <img
-                src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/9dec046b-b28f-4d8a-b3c0-a05f1f4b6e17.jpg"
-                width="408" height="267" alt="" />
-            </div>
-          </div>
-          <div class="item flex flex-col justify-between gap-3">
-            <div class="desc">
-              <div class="title font-size-18 fontweightbold">
-                Space Saving Desktop Model
-              </div>
-              <div class="overview font-size-14">
-                Designed to be installed in a small & tight space to print
-                various document sizes ranging from A6 to A1/24 inches sizes. It
-                can be placed on a desk, cabinet or shelf with a flat top that
-                will fit in a home office or satellite office.
-              </div>
-            </div>
-            <div class="image">
-              <img
-                src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/9dec046b-b28f-4d8a-b3c0-a05f1f4b6e17.jpg"
-                width="408" height="267" alt="" />
-            </div>
-          </div>
-          <div class="item flex flex-col justify-between gap-3">
-            <div class="desc">
-              <div class="title font-size-18 fontweightbold">
-                Space Saving Desktop Model
-              </div>
-              <div class="overview font-size-14">
-                Designed to be installed in a small & tight space to print
-                various document sizes ranging from A6 to A1/24 inches sizes. It
-                can be placed on a desk, cabinet or shelf with a flat top that
-                will fit in a home office or satellite office.
-              </div>
-            </div>
-            <div class="image">
-              <img
-                src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/9dec046b-b28f-4d8a-b3c0-a05f1f4b6e17.jpg"
-                width="408" height="267" alt="" />
-            </div>
-          </div>
-          <div class="item flex flex-col justify-between gap-3">
-            <div class="desc">
-              <div class="title font-size-18 fontweightbold">
-                Space Saving Desktop Model
-              </div>
-              <div class="overview font-size-14">
-                Designed to be installed in a small & tight space to print
-                various document sizes ranging from A6 to A1/24 inches sizes. It
-                can be placed on a desk, cabinet or shelf with a flat top that
-                will fit in a home office or satellite office.
-              </div>
-            </div>
-            <div class="image">
-              <img
-                src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/9dec046b-b28f-4d8a-b3c0-a05f1f4b6e17.jpg"
-                width="408" height="267" alt="" />
-            </div>
-          </div>
-          <div class="item flex flex-col justify-between gap-3">
-            <div class="desc">
-              <div class="title font-size-18 fontweightbold">
-                Space Saving Desktop Model
-              </div>
-              <div class="overview font-size-14">
-                Designed to be installed in a small & tight space to print
-                various document sizes ranging from A6 to A1/24 inches sizes. It
-                can be placed on a desk, cabinet or shelf with a flat top that
-                will fit in a home office or satellite office.
-              </div>
-            </div>
-            <div class="image">
-              <img
-                src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/9dec046b-b28f-4d8a-b3c0-a05f1f4b6e17.jpg"
-                width="408" height="267" alt="" />
-            </div>
-          </div>
-          <div class="item flex flex-col justify-between gap-3">
-            <div class="desc">
-              <div class="title font-size-18 fontweightbold">
-                Space Saving Desktop Model
-              </div>
-              <div class="overview font-size-14">
-                Designed to be installed in a small & tight space to print
-                various document sizes ranging from A6 to A1/24 inches sizes. It
-                can be placed on a desk, cabinet or shelf with a flat top that
-                will fit in a home office or satellite office.
-              </div>
-            </div>
-            <div class="image">
-              <img
-                src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/9dec046b-b28f-4d8a-b3c0-a05f1f4b6e17.jpg"
-                width="408" height="267" alt="" />
-            </div>
+    <footer class="footer">
+      <div class="top-sec grid grid-cols-1 md:grid-cols-3">
+        <div class="item text-sec">
+          <div class="text fontweightextralight">
+            Unlock the power of printing with Canon printers
           </div>
         </div>
-      </div>
-    </section>
-    <section class="solutions-offer-page workflow-sec common-spacing-py">
-      <div class="container">
-        <div class="heading-sec">
-          <div class="title"><span>Free Workflow</span> Solutions</div>
-          <div class="desc mt-2">
-            <p>
-              The following workflow solutions are designed to help you get the
-              most out of your printer.
-            </p>
-          </div>
-        </div>
-        <div class="workflow-items mt-4 lg:mt-6">
-          <div class="image-sec">
-            <div class="process-image" id="process-1">
-              <img
-                src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/59efbba5-a37f-4a6a-80f0-281415a79265.jpg"
-                width="1270" height="429" alt="" />
-            </div>
-            <div class="process-image hidden" id="process-2">
-              <img
-                src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/59efbba5-a37f-4a6a-80f0-281415a79265.jpg"
-                width="1270" height="429" alt="" />
-            </div>
-            <div class="process-image hidden" id="process-3">
-              <img
-                src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/59efbba5-a37f-4a6a-80f0-281415a79265.jpg"
-                width="1270" height="429" alt="" />
-            </div>
-          </div>
-          <div class="steps-sec grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div class="item active" data-id="process-1">
-              <div class="title fontweightbold">
-                Free Poster Application
-              </div>
-              <div class="desc font-size-14">
-                PosterArtist Web application provides a wide selection of design
-                templates for users to create their own posters, Banner and
-                other graphics easily and send to print.
-              </div>
-            </div>
-            <div class="item" data-id="process-2">
-              <div class="title fontweightbold">
-                Direct Print Plus
-              </div>
-              <div class="desc font-size-14">
-                Job submission tool which supports batch printing of multiple
-                file types, shortcut printing function and job presets, enabling
-                efficient large format printing workflow. 
-              </div>
-            </div>
-            <div class="item" data-id="process-3">
-              <div class="title fontweightbold">
-                Canon PRINT
-              </div>
-              <div class="desc font-size-14">
-                Print PDF files wirelessly via mobile app for Android
-                smartphones & tablets. Ability to check the status of printer.
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </section>
-  <section class="pagedatas hidden" id="data-02">
-    <section class="solutions-offer-page solutions-sec common-spacing-pb">
-      <div class="container">
-        <div class="products-tabbing-sec">        
-          <div class="product-detail flex flex-wrap justify-between items-center">
-            <div class="left">
-              <div class="product-name">
-                <div class="title">imagePROGRAF TC-21M</div>
-                <div class="subtitle font-size-18 fontweightbold">
-                  Compact Efficiency with Excellent Print Quality
-                </div>
-              </div>
-              <div class="description flex flex-col gap-4 mt-4 lg:gap-6 lg:mt-6">
-                <div class="overview">
-                  <p>
-                    Stop Outsourcing and Start Saving. Canon TC-21 desktop large
-                    format printer has been built with technologies that moves
-                    education and creative work forward. Design and print
-                    Classroom Decor & Visual Learning Aids, educational poster,
-                    Event Posters, Banner, and many more.
-                  </p>
-                </div>
-                <div class="pointers">
-                  <ul>
-                    <li>B/W and Color printing</li>
-                    <li>
-                      Small size (4 x 6 inch) to large Size (24 x 96 inch)
-                      printing.
-                    </li>
-                    <li>Space-saving desktop model</li>
-                    <li>Support WiFi, LAN and USB Connectivity.</li>
-                    <li>Self refillable ink bottles.</li>
-                  </ul>
-                </div>
-                <div class="links flex">
-                  <a class="common-btn red" href="/school-LFP/contact-us">Enquire</a>
-                </div>
-              </div>
-            </div>
-            <div class="right">
-              <div id="sync3" class="owl-carousel owl-theme">
-                <div class="item">
-                  <img
-                    src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/77ba7ec5-282e-42b6-934c-779a2a9040e2.jpg"
-                    width="650" height="534" alt="" />
-                </div>
-                <div class="item">
-                  <img
-                    src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/77ba7ec5-282e-42b6-934c-779a2a9040e2.jpg"
-                    width="650" height="534" alt="" />
-                </div>
-                <div class="item">
-                  <img
-                    src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/77ba7ec5-282e-42b6-934c-779a2a9040e2.jpg"
-                    width="650" height="534" alt="" />
-                </div>
-                <div class="item">
-                  <img
-                    src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/77ba7ec5-282e-42b6-934c-779a2a9040e2.jpg"
-                    width="650" height="534" alt="" />
-                </div>
-              </div>
-              <div id="sync4" class="owl-carousel owl-theme mt-4">
-                <div class="item">
-                  <img
-                    src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/d9681a0e-fb3a-4c97-8c5d-f16dbc6779f1.jpg"
-                    width="155" height="160" alt="" />
-                </div>
-                <div class="item">
-                  <img
-                    src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/d9681a0e-fb3a-4c97-8c5d-f16dbc6779f1.jpg"
-                    width="155" height="160" alt="" />
-                </div>
-                <div class="item">
-                  <img
-                    src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/d9681a0e-fb3a-4c97-8c5d-f16dbc6779f1.jpg"
-                    width="155" height="160" alt="" />
-                </div>
-                <div class="item">
-                  <img
-                    src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/d9681a0e-fb3a-4c97-8c5d-f16dbc6779f1.jpg"
-                    width="155" height="160" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="solutions-offer-page features-sec">
-      <div class="container">
-        <div class="headingtitle">Features</div>
-        <div class="features-items grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 mt-4 lg:mt-6">
-          <div class="item flex flex-col justify-between gap-3">
-            <div class="desc">
-              <div class="title font-size-18 fontweightbold">
-                Space Saving Desktop Model
-              </div>
-              <div class="overview font-size-14">
-                Designed to be installed in a small & tight space to print
-                various document sizes ranging from A6 to A1/24 inches sizes. It
-                can be placed on a desk, cabinet or shelf with a flat top that
-                will fit in a home office or satellite office.
-              </div>
-            </div>
-            <div class="image">
-              <img
-                src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/9dec046b-b28f-4d8a-b3c0-a05f1f4b6e17.jpg"
-                width="408" height="267" alt="" />
-            </div>
-          </div>
-          <div class="item flex flex-col justify-between gap-3">
-            <div class="desc">
-              <div class="title font-size-18 fontweightbold">
-                Space Saving Desktop Model
-              </div>
-              <div class="overview font-size-14">
-                Designed to be installed in a small & tight space to print
-                various document sizes ranging from A6 to A1/24 inches sizes. It
-                can be placed on a desk, cabinet or shelf with a flat top that
-                will fit in a home office or satellite office.
-              </div>
-            </div>
-            <div class="image">
-              <img
-                src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/9dec046b-b28f-4d8a-b3c0-a05f1f4b6e17.jpg"
-                width="408" height="267" alt="" />
-            </div>
-          </div>
-          <div class="item flex flex-col justify-between gap-3">
-            <div class="desc">
-              <div class="title font-size-18 fontweightbold">
-                Space Saving Desktop Model
-              </div>
-              <div class="overview font-size-14">
-                Designed to be installed in a small & tight space to print
-                various document sizes ranging from A6 to A1/24 inches sizes. It
-                can be placed on a desk, cabinet or shelf with a flat top that
-                will fit in a home office or satellite office.
-              </div>
-            </div>
-            <div class="image">
-              <img
-                src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/9dec046b-b28f-4d8a-b3c0-a05f1f4b6e17.jpg"
-                width="408" height="267" alt="" />
-            </div>
-          </div>
-          <div class="item flex flex-col justify-between gap-3">
-            <div class="desc">
-              <div class="title font-size-18 fontweightbold">
-                Space Saving Desktop Model
-              </div>
-              <div class="overview font-size-14">
-                Designed to be installed in a small & tight space to print
-                various document sizes ranging from A6 to A1/24 inches sizes. It
-                can be placed on a desk, cabinet or shelf with a flat top that
-                will fit in a home office or satellite office.
-              </div>
-            </div>
-            <div class="image">
-              <img
-                src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/9dec046b-b28f-4d8a-b3c0-a05f1f4b6e17.jpg"
-                width="408" height="267" alt="" />
-            </div>
-          </div>
-          <div class="item flex flex-col justify-between gap-3">
-            <div class="desc">
-              <div class="title font-size-18 fontweightbold">
-                Space Saving Desktop Model
-              </div>
-              <div class="overview font-size-14">
-                Designed to be installed in a small & tight space to print
-                various document sizes ranging from A6 to A1/24 inches sizes. It
-                can be placed on a desk, cabinet or shelf with a flat top that
-                will fit in a home office or satellite office.
-              </div>
-            </div>
-            <div class="image">
-              <img
-                src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/9dec046b-b28f-4d8a-b3c0-a05f1f4b6e17.jpg"
-                width="408" height="267" alt="" />
-            </div>
-          </div>
-          <div class="item flex flex-col justify-between gap-3">
-            <div class="desc">
-              <div class="title font-size-18 fontweightbold">
-                Space Saving Desktop Model
-              </div>
-              <div class="overview font-size-14">
-                Designed to be installed in a small & tight space to print
-                various document sizes ranging from A6 to A1/24 inches sizes. It
-                can be placed on a desk, cabinet or shelf with a flat top that
-                will fit in a home office or satellite office.
-              </div>
-            </div>
-            <div class="image">
-              <img
-                src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/9dec046b-b28f-4d8a-b3c0-a05f1f4b6e17.jpg"
-                width="408" height="267" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="solutions-offer-page workflow-sec common-spacing-py">
-      <div class="container">
-        <div class="heading-sec">
-          <div class="title"><span>Free Workflow</span> Solutions</div>
-          <div class="desc mt-2">
-            <p>
-              The following workflow solutions are designed to help you get the
-              most out of your printer.
-            </p>
-          </div>
-        </div>
-        <div class="workflow-items mt-4 lg:mt-6">
-          <div class="image-sec">
-            <div class="process-image" id="process-1">
-              <img
-                src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/59efbba5-a37f-4a6a-80f0-281415a79265.jpg"
-                width="1270" height="429" alt="" />
-            </div>
-            <div class="process-image hidden" id="process-2">
-              <img
-                src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/59efbba5-a37f-4a6a-80f0-281415a79265.jpg"
-                width="1270" height="429" alt="" />
-            </div>
-            <div class="process-image hidden" id="process-3">
-              <img
-                src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/59efbba5-a37f-4a6a-80f0-281415a79265.jpg"
-                width="1270" height="429" alt="" />
-            </div>
-          </div>
-          <div class="steps-sec grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div class="item active" data-id="process-1">
-              <div class="title fontweightbold">
-                Free Poster Application
-              </div>
-              <div class="desc font-size-14">
-                PosterArtist Web application provides a wide selection of design
-                templates for users to create their own posters, Banner and
-                other graphics easily and send to print.
-              </div>
-            </div>
-            <div class="item" data-id="process-2">
-              <div class="title fontweightbold">
-                Direct Print Plus
-              </div>
-              <div class="desc font-size-14">
-                Job submission tool which supports batch printing of multiple
-                file types, shortcut printing function and job presets, enabling
-                efficient large format printing workflow. 
-              </div>
-            </div>
-            <div class="item" data-id="process-3">
-              <div class="title fontweightbold">
-                Canon PRINT
-              </div>
-              <div class="desc font-size-14">
-                Print PDF files wirelessly via mobile app for Android
-                smartphones & tablets. Ability to check the status of printer.
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </section>
-  <section class="solutions-offer-page configuration-sec common-spacing-py">
-    <div class="container grid grid-cols-1 gap-4 sm:grid-cols-2 mdgrid-cols-3 lg:grid-cols-5 lg:gap-6">
-      <div class="item flex flex-col gap-2">
-        <div class="icon">
-          <img
-            src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/ba49c51e-e6f0-4f34-9900-cbcbe7c560d1.jpg"
-            width="46" height="46" alt="" />
-        </div>
-        <div class="text-sec">
-          <div class="title fontweightbold">MS Office Plug-in​</div>
-          <div class="desc font-size-14">
-            Create prints directly from MS Office Tools like Word, Excel &
-            PowerPoint​
-          </div>
-        </div>
-      </div>
-      <div class="item flex flex-col gap-2">
-        <div class="icon">
-          <img
-            src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/ba49c51e-e6f0-4f34-9900-cbcbe7c560d1.jpg"
-            width="46" height="46" alt="" />
-        </div>
-        <div class="text-sec">
-          <div class="title fontweightbold">Free Layout Plus -</div>
-          <div class="desc font-size-14">
-            Enjoy nesting, tiling and duplex printing features.
-          </div>
-        </div>
-      </div>
-      <div class="item flex flex-col gap-2">
-        <div class="icon">
-          <img
-            src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/ba49c51e-e6f0-4f34-9900-cbcbe7c560d1.jpg"
-            width="46" height="46" alt="" />
-        </div>
-        <div class="text-sec">
-          <div class="title fontweightbold">Quick Utility Toolbox -</div>
-          <div class="desc font-size-14">
-            Quick access to supporting utilities and settings. From printer
-            information, speed dial and destination folder settings to
-            scanning and cloud sharing.
-          </div>
-        </div>
-      </div>
-      <div class="item flex flex-col gap-2">
-        <div class="icon">
-          <img
-            src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/ba49c51e-e6f0-4f34-9900-cbcbe7c560d1.jpg"
-            width="46" height="46" alt="" />
-        </div>
-        <div class="text-sec">
-          <div class="title fontweightbold">Easy PhotoPrint Editor​</div>
-          <div class="desc font-size-14">
-            Create & Print Photo Layout, Collage & calendars from Computer &
-            Mobile​
-          </div>
-        </div>
-      </div>
-      <div class="item flex flex-col gap-2">
-        <div class="icon">
-          <img
-            src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/ba49c51e-e6f0-4f34-9900-cbcbe7c560d1.jpg"
-            width="46" height="46" alt="" />
-        </div>
-        <div class="text-sec">
-          <div class="title fontweightbold">
-            Poster Artist/PosterArtist Lite -
-          </div>
-          <div class="desc font-size-14">
-            Windows-based application. Create professional-looking posters
-            in-house with a wide variety of templates, stock photos and clip
-            art for various business types and themes.
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="solutions-offer-page potential-sec common-spacing-py">
-    <div class="container flex flex-wrap">
-      <div class="left">
-        <img class="h-full object-cover"
-          src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/75aec9b8-9a48-4729-b7cb-e514af085a51.jpg"
-          width="635" height="384" alt="" />
-      </div>
-      <div class="right flex flex-col justify-center">
-        <div class="heading-sec">
-          <div class="title">
-            Unlock Large Potential
-            <span class="block">From Small Spaces</span>
-          </div>
-        </div>
-        <div class="desc flex flex-col gap-2 mt-2 sm:gap-4 sm:mt-4">
-          <div class="subdesc font-size-24 fontweightmedium">
-            Have a question on Canon imagePROGRAF Large Format Printer?
-          </div>
-          <div class="font-size-18">
-            Want to know how it can help in your business?
+        <div class="item demo-sec">
+          <div class="title font-size-28 fontweightbold">Book a demo</div>
+          <div class="desc font-size-18 fontweightmedium">
+            Schedule with us a printer demo, showcasing our cutting-edge
+            solution tailored to meet your unique requirements
           </div>
           <div class="links flex">
-            <a class="common-btn" href="/school-LFP/contact-us">Ask Us a Question</a>
+            <a class="common-btn" href="/school-LFP/contact-us">Book a demo</a>
+          </div>
+        </div>
+        <div class="item expert-sec">
+          <div class="title font-size-28 fontweightbold">
+            Talk with an expert
+          </div>
+          <div class="desc font-size-18 fontweightmedium">
+            Consult with an Canon Product expert who can offer professional
+            guidance and assist you in selecting the most suitable printer
+          </div>
+          <div class="links flex">
+            <a class="common-btn" href="/school-LFP/contact-us"
+              >Contact an expert</a
+            >
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="contact-sec common-spacing-py">
-    <div class="container grid grid-cols-1 gap-3 sm:grid-cols-2 font-size-16 md:grid-cols-3 fontweightregular">
-      <div class="logo-sec hidden md:block">
-        <img
-          src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/6bf5a700-2e48-4a19-b3f2-361d63832488.png"
-          width="154" height="74" alt="" />
-      </div>
-      <div class="email-phone-sec flex flex-col gap-4 lg:gap-8">
-        <div class="item">
-          <div class="title fontweightbold">Email:</div>
-          <div class="desc">
-            <a href="mailto:cipl.ppp@canon.co.in">cipl.ppp@canon.co.in</a>
-          </div>
-        </div>
-        <div class="item">
-          <div class="title fontweightbold">WhatsApp:</div>
-          <div class="desc">+91 9899298939</div>
-        </div>
-        <div class="item">
-          <div class="title fontweightbold">Phone:</div>
-          <div class="desc">+91 9899298939</div>
+      <div class="bottom-sec">
+        <div class="container">
+          Web Design & Development :
+          <a href="https://interactivebees.com/" target="_blank"
+            >Interactive Bees</a
+          >
         </div>
       </div>
-      <div class="address-sec flex flex-col gap-4 lg:gap-8">
-        <div class="item">
-          <div class="title fontweightbold">Address:</div>
-          <div class="desc">
-            7th Floor, Tower B,<br />
-            Building #5, DLF Epitome,<br />
-            DLF Phase III,<br />
-            Gurgaon 122002
-          </div>
-        </div>
-        <div class="item">
-          <div class="title fontweightbold">Canon India Pvt. Ltd.</div>
-          <div class="desc">2025 All Rights Reserved</div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <footer class="footer">
-    <div class="top-sec grid grid-cols-1 md:grid-cols-3">
-      <div class="item text-sec">
-        <div class="text fontweightextralight">
-          Unlock the power of printing with Canon printers
-        </div>
-      </div>
-      <div class="item demo-sec">
-        <div class="title font-size-28 fontweightbold">Book a demo</div>
-        <div class="desc font-size-18 fontweightmedium">
-          Schedule with us a printer demo, showcasing our cutting-edge
-          solution tailored to meet your unique requirements
-        </div>
-        <div class="links flex">
-          <a class="common-btn" href="/school-LFP/contact-us">Book a demo</a>
-        </div>
-      </div>
-      <div class="item expert-sec">
-        <div class="title font-size-28 fontweightbold">
-          Talk with an expert
-        </div>
-        <div class="desc font-size-18 fontweightmedium">
-          Consult with an Canon Product expert who can offer professional
-          guidance and assist you in selecting the most suitable printer
-        </div>
-        <div class="links flex">
-          <a class="common-btn" href="/school-LFP/contact-us">Contact an expert</a>
-        </div>
-      </div>
-    </div>
-    <div class="bottom-sec">
-      <div class="container">
-        Web Design & Development :
-        <a href="https://interactivebees.com/" target="_blank">Interactive Bees</a>
-      </div>
-    </div>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>
+
