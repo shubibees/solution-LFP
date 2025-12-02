@@ -156,7 +156,7 @@ $(document).ready(function () {
         },
       },
     });
-    $(".banner-sec")    
+    $(".bannerslider")    
     .owlCarousel({
       items: 1,
       loop: true,      
