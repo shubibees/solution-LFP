@@ -279,7 +279,7 @@ p {
     color: var(--SecondaryColor);
     font-weight: var(--FontWeightBold);
     z-index: 999;
-    right: -3.1rem;
+    right: -4rem;
     transform: rotate(-90deg);
     transition: all linear .3s;
 
@@ -297,7 +297,27 @@ p {
     min-height: 31rem;
     object-fit: cover;
   }
-
+  .owl-dots {
+    position: absolute;
+    bottom: 1.4rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;   
+    z-index: 2;  
+    gap: .4rem;
+    .owl-dot {
+      width: 1rem;
+      height: 1rem;
+      background: var(--WhiteColor);
+      border-radius: 50%;
+      &.active{
+        background-color: var(--PrimaryColor);
+      }
+    }
+  }
   .text-sec {
     position: absolute;
     left: 4.6%;
@@ -455,7 +475,8 @@ p {
         content: "";
         width: 1.2rem;
         height: 1.2rem;
-        background: url('../images/icon-arrow.svg')0 0 no-repeat;
+        background: url('https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/3f580872-4fad-43e7-be7a-20ccedbaaf22.png')0 0 no-repeat;
+        background-size: 1.2rem;
         left: .3rem;
         right: 0;
         margin: auto;
@@ -688,7 +709,7 @@ p {
               content: "";
               width: .5rem;
               height: 1rem;
-              background: url('../images/icon-pointer.png')0 0 no-repeat;
+              background: url('https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/1ea6c17c-451c-483c-8076-ea7207b9feba.png')0 0 no-repeat;
               left: 0;
               top: .8rem;
             }
@@ -731,13 +752,13 @@ p {
         padding: 1.875rem 1.25rem 0;
         border-top: solid 0.1875rem transparent;
         transition: all linear .3s;
-
+        cursor: pointer;
         .title {
           margin-bottom: .5rem;
           transition: all linear .3s;
         }
 
-        &:hover {
+        &:hover,&.active {
           border-color: var(--PrimaryColor);
 
           .title {

@@ -156,8 +156,23 @@ $(document).ready(function () {
         },
       },
     });
+    $(".banner-sec")    
+    .owlCarousel({
+      items: 1,
+      loop: true,      
+      autoplay: true,
+      nav: false,      
+      dots:true  
+    });
   $(".menutoogle").click(function () {
     $(".menutoogle").toggleClass("close");
     $(".nav").toggleClass("active");
+  });
+  $(".steps-sec .item").click(function () {
+    let id = $(this).data("id");
+    $(".steps-sec .item").removeClass("active");
+    $(this).addClass("active");
+    $(".process-image").addClass("hidden");
+    $("#" + id).removeClass("hidden");
   });
 });

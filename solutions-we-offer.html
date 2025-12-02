@@ -378,17 +378,35 @@
         </div>
         <div class="workflow-items mt-4 lg:mt-6">
           <div class="image-sec">
-            <img
-              src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/59efbba5-a37f-4a6a-80f0-281415a79265.jpg"
-              width="1270"
-              height="429"
-              alt=""
-            />
+            <div class="process-image" id="process-1">
+              <img              
+                src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/59efbba5-a37f-4a6a-80f0-281415a79265.jpg"
+                width="1270"
+                height="429"
+                alt=""
+              />
+            </div>
+            <div class="process-image hidden" id="process-2">
+              <img                
+                src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/59efbba5-a37f-4a6a-80f0-281415a79265.jpg"
+                width="1270"
+                height="429"
+                alt=""
+              />
+            </div>
+            <div class="process-image hidden" id="process-3">
+              <img
+                src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/59efbba5-a37f-4a6a-80f0-281415a79265.jpg"
+                width="1270"
+                height="429"
+                alt=""
+              />
+            </div>
           </div>
           <div class="steps-sec grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div class="item">
+            <div class="item active" data-id="process-1">
               <div class="title fontweightbold">
-                1/3 Free Poster Application
+                Free Poster Application
               </div>
               <div class="desc font-size-14">
                 PosterArtist Web application provides a wide selection of design
@@ -396,16 +414,20 @@
                 other graphics easily and send to print.
               </div>
             </div>
-            <div class="item">
-              <div class="title fontweightbold">2/3 Direct Print Plus</div>
+            <div class="item" data-id="process-2">
+              <div class="title fontweightbold">
+                Direct Print Plus
+              </div>
               <div class="desc font-size-14">
                 Job submission tool which supports batch printing of multiple
                 file types, shortcut printing function and job presets, enabling
                 efficient large format printing workflow. 
               </div>
             </div>
-            <div class="item">
-              <div class="title fontweightbold">3/3 Canon PRINT</div>
+            <div class="item" data-id="process-3">
+              <div class="title fontweightbold">
+                Canon PRINT
+              </div>
               <div class="desc font-size-14">
                 Print PDF files wirelessly via mobile app for Android
                 smartphones & tablets. Ability to check the status of printer.
@@ -602,7 +624,7 @@
             solution tailored to meet your unique requirements
           </div>
           <div class="links flex">
-            <a class="common-btn" href="">Book a demo</a>
+            <a class="common-btn" href="/contact-us.html">Book a demo</a>
           </div>
         </div>
         <div class="item expert-sec">
@@ -614,7 +636,7 @@
             guidance and assist you in selecting the most suitable printer
           </div>
           <div class="links flex">
-            <a class="common-btn" href="">Contact an expert</a>
+            <a class="common-btn" href="/contact-us.html">Contact an expert</a>
           </div>
         </div>
       </div>
