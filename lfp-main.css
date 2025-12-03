@@ -317,6 +317,9 @@ p:first-of-type {
 .banner-sec.innerbanner img {
   max-height: 40rem;
 }
+.banner-sec.innerbanner.detail-page img {
+  max-height: 18rem;
+}
 .banner-sec.innerbanner .text-sec {
   font-size: 3.1rem;
   max-width: 66rem;
