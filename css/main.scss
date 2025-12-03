@@ -723,9 +723,15 @@ p {
 
       .right {
         width: 51%;
-
+        .item{
+          padding: 2rem;
+          border-radius: 0.3125rem;
+          background-color: #ccc;
+        }
         img {
           border-radius: 0.3125rem;
+          max-width: 30rem;
+          margin: 0 auto;
         }
       }
     }
