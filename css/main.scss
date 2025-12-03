@@ -18,7 +18,7 @@ html {
   scroll-behavior: smooth;
 
   @media screen and (max-width:1699px) {
-    font-size: 1.143vw;
+    font-size: 1vw;
   }
 
   @media screen and (max-width:1199px) {
@@ -407,15 +407,16 @@ p {
         // .desc{
         //   display: none;
         // }
-        img {
+        /*img {
           opacity: .5;
-        }
+        }*/
 
         .text-detail {
           position: absolute;
           bottom: 0;
           left: 0;
           padding: 1.5rem 1.5rem 1rem;
+          background: linear-gradient(#0000000a 10%, #000 50%);
           color: var(--WhiteColor);
 
           .title {
