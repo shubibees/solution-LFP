@@ -367,6 +367,7 @@ p:first-of-type {
 .school-application-sec .outer-sec .right .item .text-detail {
   position: absolute;
   bottom: 0;
+  width: 100%;
   left: 0;
   padding: 1.5rem 1.5rem 1rem;
   background: -webkit-gradient(
