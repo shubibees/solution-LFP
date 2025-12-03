@@ -340,7 +340,8 @@ p {
 
   &.innerbanner {
     img {
-      max-height: 40rem;
+      max-height: 25rem;
+      min-height: 20rem;
     }
 
     .text-sec {
