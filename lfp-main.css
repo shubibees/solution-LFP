@@ -74,6 +74,10 @@ p:first-of-type {
   background-color: var(--PrimaryColor);
   color: var(--WhiteColor);
 }
+.common-btn.grey {
+  background-color: var(--SecondaryColor);
+  color: var(--WhiteColor);
+}
 .common-spacing-py {
   padding-top: 3.75rem;
   padding-bottom: 3.75rem;
@@ -363,7 +367,6 @@ p:first-of-type {
 .school-application-sec .outer-sec .right .item .text-detail {
   position: absolute;
   bottom: 0;
-  width: 100%;
   left: 0;
   padding: 1.5rem 1.5rem 1rem;
   background: -webkit-gradient(
@@ -749,6 +752,10 @@ p:first-of-type {
   padding: 2.5rem;
   color: var(--WhiteColor);
 }
+.thankyou-page .image {
+  width: 33rem;
+  max-width: 80%;
+}
 .footer .top-sec .item {
   background-color: var(--PrimaryColor);
   padding: 1.875rem 3.75rem;
@@ -787,4 +794,3 @@ p:first-of-type {
 .footer .bottom-sec a:hover {
   color: var(--PrimaryColor);
 }
-

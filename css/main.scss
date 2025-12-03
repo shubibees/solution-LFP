@@ -78,6 +78,10 @@ p {
     background-color: var(--PrimaryColor);
     color: var(--WhiteColor);
   }
+  &.grey{
+    background-color: var(--SecondaryColor);
+    color: var(--WhiteColor);
+  }
 }
 
 .common-spacing-py {
@@ -807,7 +811,12 @@ p {
     }
   }
 }
-
+.thankyou-page{
+  .image{
+    width: 33rem;
+    max-width: 80%;
+  }
+}
 .footer {
   .top-sec {
     .item {

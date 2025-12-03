@@ -115,15 +115,7 @@
         .bottom-sec{
             text-align: center;
         }
-    }
-    .contact-us-page .form-sec .item{
-        label {
-            width: 20rem;     
-        }
-        input,select,textarea{
-            width: calc(100% - 20rem);
-        }  
-    }
+    }    
     .school-application-conatct .image-sec .text-detail {
         padding: 1.5rem;
     }
@@ -191,12 +183,7 @@
             padding: 1.5rem;
         }
         .form-sec .item{
-            label {
-                width: 15rem;     
-            }
-            input,select,textarea{
-                width: calc(100% - 15rem);
-            }  
+           width: 100%;
         }
         .reachus-sec{
             .left{
@@ -275,8 +262,7 @@
     .blog-sec .item .text-detail {
         padding: 1.5rem 1rem;
     }
-    .contact-us-page .form-sec .item {
-        padding: .5rem 0 1rem;  
+    .contact-us-page .form-sec .item {        
         label{
             width: 100%;
             font-size: 1rem;  
