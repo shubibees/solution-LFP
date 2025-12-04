@@ -1,23 +1,12 @@
-Classroom Decor 
-https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/5d37d08e-fc56-4d76-98cd-eedb3cbb447d.jpg
 
-Visual Learning Aids
-https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/2bd73769-a6a0-4bba-af83-7d5a15d5ea7b.jpg
-
-Educational poster
-https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/8fcaf8c4-40b5-419f-9139-2c04657691f7.jpg
-
-Event Posters, Banners
-https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/80c81d53-597f-4b46-83ce-b443d00d8484.jpg
-
-Health and Safety Signage
-https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/85d39fb1-f71d-4342-9c23-32012b27997a.jpg
-
-Group Pictures
-https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/2891ff96-b8e4-443d-874d-b7533ada5f83.jpg
-
-Announcement Banners
-https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/b22bd679-d9ab-4847-b324-aa84e6f5de01.jpg
-
-Sports Event Certificate
-https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/443b642c-537f-431c-8c4f-6cb3f154b034.jpg
+                <img
+                  src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/679d095b-dcfc-402e-a148-1bbfc1fe609a.jpg"
+                  width="454"
+                  height="360"
+                  alt=""
+                />
+              </div>
+              <div class="text-detail flex flex-wrap item-start">
+                <div class="title">
+                  Turning ideas into masterpieces is #NewSchoolThinking
+                </div>
