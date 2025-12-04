@@ -189,6 +189,18 @@ p {
 
 .header {
   position: relative;
+  top: 0;
+  left: 0;
+  transition: all linear .3s;
+  &.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--WhiteColor);
+    width: 100%;
+    box-shadow: 0 0 .8rem rgba(0,0,0,.2);
+    z-index: 9999;
+  }
 
   &:after {
     position: absolute;
