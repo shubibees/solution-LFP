@@ -272,3 +272,10 @@ $(document).ready(function () {
     $("#" + id).removeClass("hidden");
   });
 });
+$(window).on("scroll", function () {
+  if ($(this).scrollTop() > 50) {          // when scroll is more than 50px
+    $(".header").addClass("sticky");
+  } else {
+    $(".header").removeClass("sticky");
+  }
+});

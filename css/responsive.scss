@@ -129,6 +129,17 @@
             margin-top: 1rem;
         }
     }
+    .blog-sec .item{
+        .text-detail{
+            .title {
+                font-size: 1.2rem!important;
+                font-weight: var(--FontWeightMedium)!important;
+            }
+            .circle-btn{
+                opacity: 1!important;
+            }
+        }
+    }
     
 }
 @media screen and (max-width:767px){
@@ -138,6 +149,10 @@
 
     .font-size-24 {
         font-size: 1.3rem;
+    }
+    .banner-sec.innerbanner img {
+        min-height: 15rem;
+        max-height: 15rem;
     }
     .counter, .blogscounter {
         position: absolute;        
