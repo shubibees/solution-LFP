@@ -310,6 +310,9 @@ p {
     font-weight: var(--FontWeightBold);
   }
 .banner-sec {
+  height: calc(100vh - 7.2rem);
+  overflow: hidden;
+  min-height: 31rem;
   img {
     height: calc(100vh - 7.2rem);
     min-height: 31rem;
@@ -351,6 +354,8 @@ p {
   }
 
   &.innerbanner {
+    max-height: 25rem;
+    min-height: 20rem;
     img {
       max-height: 25rem;
       min-height: 20rem;
