@@ -1,0 +1,15 @@
+const fs = require("fs");
+
+async function imageImport() {
+  try {
+    const readObj = fs.readFileSync("./imageText.txt", "utf8");
+    const imageCollection = readObj.split("\n");
+    imageCollection.map(async (url) => {
+      const imageContent = await fetch();
+    });
+  } catch (err) {
+    console.log(`err:${err}`);
+  }
+}
+
+imageImport();

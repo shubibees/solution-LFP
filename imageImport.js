@@ -1,5 +1,13 @@
-const fs = require("fs");
+import { readFile } from "node:fs";
 
-function imageImport() {
-  const readObj = fs.readFileSync("./imageText.txt", "utf8");
+async function imageImport() {
+  try {
+    const readObj = readFile("./imageText.txt", "utf8");
+    const imageCollection = readObj.split("\n");
+    return imageCollection;
+  } catch (err) {
+    console.log(`err:${err}`);
+  }
 }
+
+imageImport();
