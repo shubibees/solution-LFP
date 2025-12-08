@@ -90,21 +90,24 @@
     </header>
     <section class="banner-sec relative">
       <div class="item relative">
-        <picture>
-          <source
-            srcset="
-              https://cdn.jsdelivr.net/gh/shubibees/img_container/banner-image-update.webp
-            "
-            media="(min-width: 768px)"
+        <div class="hidden md:block">
+          <img            
+            src="https://cdn.jsdelivr.net/gh/shubibees/img_container/banner-image-update.webp"
+            alt="banner"
+            width="1400"
+            height="610"
+            loading="eager"
           />
-          <img
+        </div>
+        <div class="block md:hidden">
+          <img            
             src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/852841b5-b8eb-4100-a305-80d567900e0d.jpg"
             alt="banner"
             width="480"
             height="500"
             loading="eager"
-          />
-        </picture>
+          />   
+        </div>     
         <div class="text-sec">
           Transform Learning with <b>Visual Excellence</b>
           <div class="links flex">
