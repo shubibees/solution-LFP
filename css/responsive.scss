@@ -92,9 +92,9 @@
         }
         .side-enq-btn {            
             top: auto;
-            background-color: var(--SecondaryColor);
+            // background-color: var(--SecondaryColor);
             padding: .7rem;          
-            color: var(--WhiteColor);        
+            // color: var(--WhiteColor);        
             right: 0;          
             transform: rotate(0deg);        
             bottom: 0;
@@ -118,6 +118,7 @@
     }    
     .school-application-conatct .image-sec .text-detail {
         padding: 1.5rem;
+        position: static;
     }
     .solutions-offer-page.solutions-sec .product-detail{
         margin-top: 1rem;

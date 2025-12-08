@@ -21,7 +21,6 @@
     max-width: 100%;
   }
   .common-spacing-py {
-    margin-top: 22px;
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
@@ -113,6 +112,7 @@
   }
   .school-application-conatct .image-sec .text-detail {
     padding: 1.5rem;
+    position: static;
   }
   .solutions-offer-page.solutions-sec .product-detail {
     margin-top: 1rem;
