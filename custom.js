@@ -245,25 +245,24 @@ $(document).ready(function () {
         },
       },
     });
-    $(".bannerslider")    
-    .owlCarousel({
-      items: 1,
-      loop: false,      
-      autoplay: true,
-      nav: false,      
-      dots:true  
-    });
+  $(".bannerslider").owlCarousel({
+    items: 1,
+    loop: false,
+    autoplay: true,
+    nav: false,
+    dots: true,
+  });
   $(".menutoogle").click(function () {
     $(".menutoogle").toggleClass("close");
     $(".nav").toggleClass("active");
   });
-  $(".steps-sec .item").click(function () {
-    let id = $(this).data("id");
-    $(".steps-sec .item").removeClass("active");
-    $(this).addClass("active");
-    $(".process-image").addClass("hidden");
-    $("#" + id).removeClass("hidden");
-  });
+  // $(".steps-sec .item").click(function () {
+  //   let id = $(this).data("id");
+  //   $(".steps-sec .item").removeClass("active");
+  //   $(this).addClass("active");
+  //   $(".process-image").addClass("hidden");
+  //   $("#" + id).removeClass("hidden");
+  // });
   $(".solutions-offer-page .tabbing-sec .common-btn").click(function () {
     let id = $(this).data("id");
     $(".solutions-offer-page .tabbing-sec .common-btn").removeClass("red");
@@ -273,7 +272,8 @@ $(document).ready(function () {
   });
 });
 $(window).on("scroll", function () {
-  if ($(this).scrollTop() > 50) {          // when scroll is more than 50px
+  if ($(this).scrollTop() > 50) {
+    // when scroll is more than 50px
     $(".header").addClass("sticky");
   } else {
     $(".header").removeClass("sticky");

@@ -51,14 +51,12 @@
       <div class="container flex justify-between">
         <div class="logo">
           <a href="/school-LFP">
-            <picture>
-              <img
-                src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/6bf5a700-2e48-4a19-b3f2-361d63832488.png"
-                width="154"
-                height="74"
-                alt=""
-              />
-            </picture>
+            <img
+              src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/6bf5a700-2e48-4a19-b3f2-361d63832488.png"
+              width="154"
+              height="74"
+              alt=""
+            />
           </a>
         </div>
         <div class="menu-sec flex justify-end">
@@ -92,13 +90,21 @@
     </header>
     <section class="banner-sec relative">
       <div class="item relative">
-        <img
-          class="w-full"
-          src="https://cdn.jsdelivr.net/gh/shubibees/img_container/banner-image-update.webp"
-          width="1400"
-          height="607"
-          alt=""
-        />
+        <picture>
+          <source
+            srcset="
+              https://cdn.jsdelivr.net/gh/shubibees/img_container/banner-image-update.webp
+            "
+            media="(min-width: 768px)"
+          />
+          <img
+            src="https://image.connect.canon.co.in/lib/fe3811737164047f711574/m/1/852841b5-b8eb-4100-a305-80d567900e0d.jpg"
+            alt="banner"
+            width="480"
+            height="500"
+            loading="eager"
+          />
+        </picture>
         <div class="text-sec">
           Transform Learning with <b>Visual Excellence</b>
           <div class="links flex">
