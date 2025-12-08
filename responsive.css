@@ -21,6 +21,7 @@
     max-width: 100%;
   }
   .common-spacing-py {
+    margin-top: 22px;
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
